@@ -4,63 +4,41 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 
 * Learning and Reference
 	* [Tutorials and Books](#tutorials-and-books)
-	* [Examples and Exercises](#examples-and-exercises)
 	* [Awesome Lists and Collections](#awesome-lists-and-collections)
 * Language and Tooling
-	* [Compilers and Interpreters](#compilers-and-interpreters)
-	* [Build Systems](#build-systems)
-	* [Package Management](#package-management)
 	* [Linters and Formatters](#linters-and-formatters)
-	* [Debugging and Profiling](#debugging-and-profiling)
 	* [Version Control](#version-control)
 * Web
 	* [Web Frameworks](#web-frameworks)
-	* [HTTP and Networking Clients](#http-and-networking-clients)
-	* [API and GraphQL](#api-and-graphql)
 	* [Frontend and UI Components](#frontend-and-ui-components)
 	* [Scraping and Crawling](#scraping-and-crawling)
 * Data and Storage
 	* [Databases](#databases)
-	* [Database Clients and ORMs](#database-clients-and-orms)
-	* [Serialization and Formats](#serialization-and-formats)
-	* [Search and Indexing](#search-and-indexing)
 * Machine Learning and AI
 	* [LLM and Inference](#llm-and-inference)
-	* [Machine Learning Frameworks](#machine-learning-frameworks)
 	* [Computer Vision](#computer-vision)
-	* [Natural Language Processing](#natural-language-processing)
 	* [Data Science and Analytics](#data-science-and-analytics)
 * AI Agents
 	* [Agent Frameworks and Runtimes](#agent-frameworks-and-runtimes)
 	* [Agent Skills and Tooling](#agent-skills-and-tooling)
-	* [MCP Servers and Connectors](#mcp-servers-and-connectors)
 	* [Memory and Context](#memory-and-context)
 	* [Evaluation and Benchmarks](#evaluation-and-benchmarks)
 * Networking and Distributed
-	* [Distributed Systems](#distributed-systems)
 	* [Cloud and Infrastructure](#cloud-and-infrastructure)
-	* [Monitoring and Observability](#monitoring-and-observability)
 * User Interface
-	* [GUI Toolkits](#gui-toolkits)
 	* [Mobile](#mobile)
 	* [Applications and End User Tools](#applications-and-end-user-tools)
 * Graphics and Media
 	* [Graphics and Rendering](#graphics-and-rendering)
 	* [Game Development](#game-development)
-	* [Audio](#audio)
 	* [Image and Video](#image-and-video)
 * Security
 	* [Security Tools](#security-tools)
-	* [Reverse Engineering](#reverse-engineering)
-* Concurrency and Performance
-	* [Concurrency and Parallelism](#concurrency-and-parallelism)
-	* [Performance and Optimization](#performance-and-optimization)
 * Testing and Quality
 	* [Testing](#testing)
 * Utilities
 	* [Command Line Tools](#command-line-tools)
 	* [Text Processing](#text-processing)
-	* [Files and Operating System](#files-and-operating-system)
 	* [Automation and Scripting](#automation-and-scripting)
 * Systems and Hardware
 	* [Embedded and Firmware](#embedded-and-firmware)
@@ -68,7 +46,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 	* [Finance and Trading](#finance-and-trading)
 	* [Business and Productivity](#business-and-productivity)
 * Science and Math
-	* [Mathematics](#mathematics)
 	* [Scientific Computing](#scientific-computing)
 * [Other](#other)
 
@@ -98,13 +75,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [hugobowne/show-us-your-agent-skills](https://github.com/hugobowne/show-us-your-agent-skills) - Companion repo to our livestream series Show Us Your (Agent) Skills
 * [Lyn-77/ProMentor](https://github.com/Lyn-77/ProMentor) - ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编程助手立刻化身为导师——扫描项目架构、生成阶梯式 Chapter、带你手写核心逻辑、自动判题、AI Code Review。
 * [AlphaMao1/AlphaMao-technology-mapping](https://github.com/AlphaMao1/AlphaMao-technology-mapping) - 从一个技术关键词出发，自动生成前沿技术领域的技术全景图谱。AI Agent Skill for Gemini CLI / Claude Code.
-
-### Examples and Exercises
-
-* [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-* [google-ai-edge/litert-samples](https://github.com/google-ai-edge/litert-samples) - LiteRT and LiteRT-LM sample apps, model recipes, agent skills and utilities.
-* [tech-shrimp/agent-skills-examples](https://github.com/tech-shrimp/agent-skills-examples)
-* [liyupi/github-global](https://github.com/liyupi/github-global) - 2026 年编程导航 AI 编程实战新项目，基于 Next.js 15 + GitHub App + OpenRouter 的 GitHub 仓库 AI 文档翻译 SaaS 平台，支持可视化翻译配置、一键多语言翻译、自动创建 PR、Webhook 增量翻译、自定义大模型等。覆盖 GitHub App OAuth 认证、GitHub REST API 对接、OpenRouter 多模型接入、Prisma + MySQL 全栈开发、Vercel 部署、Ngrok 内网穿透、Cursor Vibe Coding + MCP + Agent Skills 等核心技术。用一套教程掌握 AI 编程全流程，从需求调研到部署上线，不到一周学完，给你的简历增加竞争力
 
 ### Awesome Lists and Collections
 
@@ -141,20 +111,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 
 ## Language and Tooling
 
-### Compilers and Interpreters
-
-* [mohitmishra786/low-level-dev-skills](https://github.com/mohitmishra786/low-level-dev-skills) - A curated suite of AI agent skills for systems and low-level programming with C/C++, Rust, and Zig toolchains, covering compilers, debuggers, profilers, build systems, sanitizers, and binary analysis
-* [modular/skills](https://github.com/modular/skills) - Agent Skills for Mojo and MAX development
-
-### Build Systems
-
-* [AvdLee/Xcode-Build-Optimization-Agent-Skill](https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill) - An Agent Skill helping you to optimize Xcode incremental and clean builds by running benchmarks and optimizing build settings.
-* [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) - A collection of Agent Skills for Rstack.
-
-### Package Management
-
-* [jlevy/simple-modern-uv](https://github.com/jlevy/simple-modern-uv) - A powerful, minimal agent skill and template for modern Python projects with uv
-
 ### Linters and Formatters
 
 * [yzddmr6/repo-analyzer](https://github.com/yzddmr6/repo-analyzer) - AI coding agent skill for deep architectural analysis of open-source projects | 开源项目深度架构分析，一句话生成专业级分析报告
@@ -164,11 +120,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [cxuu/golang-skills](https://github.com/cxuu/golang-skills) - AI Agent Skills for idiomatic, production-ready Go code, distilled from Google, Uber, Community
 * [fallow-rs/fallow-skills](https://github.com/fallow-rs/fallow-skills) - Agent skills for fallow, codebase intelligence for TypeScript and JavaScript. Teaches AI agents how to find unused code, duplication, circular deps, complexity hotspots, architecture drift, design-system drift, and (with Fallow Runtime) hot-path and cold-path evidence. Works with Claude Code, Cursor, Codex, Gemini CLI, and 30+ agents.
 * [MrZoyo/deslop-GPT](https://github.com/MrZoyo/deslop-GPT) - Deletion-first Agent Skill for removing test bloat, verification theater, and speculative fallbacks while preserving behavior.
-
-### Debugging and Profiling
-
-* [zeke/faster-chrome-devtools-skill](https://github.com/zeke/faster-chrome-devtools-skill) - Agent skill that makes Chrome DevTools faster
-* [brunoborges/jdb-agentic-debugger](https://github.com/brunoborges/jdb-agentic-debugger) - Agent Skill for debugging Java applications in real time using JDB (Java Debugger CLI)
 
 ### Version Control
 
@@ -202,17 +153,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [aurorascharff/nextjs-app-architecture-skill](https://github.com/aurorascharff/nextjs-app-architecture-skill) - An agent skill for building and auditing Next.js 16+ App Router applications.
 * [gogf/skills](https://github.com/gogf/skills) - GoFrame Agent Skills empowering AI to deeply understand GoFrame conventions and best practices, generating high-quality, production-ready code.
 * [viewflow/seedkit](https://github.com/viewflow/seedkit) - Build any Django app — from a SaaS to a dashboard to an API — from a single sentence. An agent skill that wires packages, splits dev/prod settings, and adds CI.
-
-### HTTP and Networking Clients
-
-* [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) - Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.
-
-### API and GraphQL
-
-* [resend/resend-skills](https://github.com/resend/resend-skills) - Agent Skills for working with Resend to send and receive emails.
-* [apollographql/skills](https://github.com/apollographql/skills) - Apollo GraphQL Agent Skills
-* [hookdeck/webhook-skills](https://github.com/hookdeck/webhook-skills) - Webhook integration skills for AI coding agents (Claude Code, Cursor, Copilot). Step-by-step guidance for setting up webhook receivers, signature verification, and event handling for Stripe, Shopify, GitHub, and more. Built on the Agent Skills specification.
-* [JustSteveKing/api-skill](https://github.com/JustSteveKing/api-skill) - An opinionated agent skill that encodes production-ready patterns for building REST APIs in Laravel 13+.
 
 ### Frontend and UI Components
 
@@ -282,23 +222,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [redis/agent-skills](https://github.com/redis/agent-skills) - Redis' official collection of agent skills
 * [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) - Agent Skills for Neon Severless Postgres
 
-### Database Clients and ORMs
-
-* [twostraws/SwiftData-Agent-Skill](https://github.com/twostraws/SwiftData-Agent-Skill) - SwiftData agent skill for Claude Code, Codex, and other AI tools.
-* [AvdLee/Core-Data-Agent-Skill](https://github.com/AvdLee/Core-Data-Agent-Skill) - An Agent Skill focused on Apple’s Core Data framework, helping with data modeling, fetch requests, performance, and common persistence patterns.
-* [ystemsrx/sql_to_ER](https://github.com/ystemsrx/sql_to_ER) - 【在线免费使用】 简单快速将SQL或DBML转换为美观的ER图（支持 Agent Skill）/ The best SQL to ER Diagram converter (Support Agent Skill).
-
-### Serialization and Formats
-
-* [UditAkhourii/cdaf](https://github.com/UditAkhourii/cdaf) - CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.
-
-### Search and Indexing
-
-* [elastic/agent-skills](https://github.com/elastic/agent-skills) - Official Elastic Skills
-* [qdrant/skills](https://github.com/qdrant/skills) - Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java
-* [weaviate/agent-skills](https://github.com/weaviate/agent-skills) - Agent Skills to empower developers building AI applications with Weaviate.
-* [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) - You.com skills and plugins for web search, content extraction, research, finance, and integration discovery, helping AI agents build with up-to-date web context.
-
 ## Machine Learning and AI
 
 ### LLM and Inference
@@ -317,10 +240,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [JBurlison/MetaPrompts](https://github.com/JBurlison/MetaPrompts) - Meta Prompting to generate AI instructions, agents, skills & prompts
 * [liangdabiao/skill-ten-prompt-generator](https://github.com/liangdabiao/skill-ten-prompt-generator) - 基于 Claude Code Agent Skills 的 AI 提示词工程系统 - 10个场景化专家，自动路由，精准生成优秀提示词 ## 项目简介 这是一个基于 Claude Code Agent Skills 技术的智能提示词生成系统。通过自然语言请求，系统会自动路由到对应的专业 Skill，帮助用户写出高质量的 AI 提示词。
 
-### Machine Learning Frameworks
-
-* [Hanyuyuan6/remote-gpu-trainer](https://github.com/Hanyuyuan6/remote-gpu-trainer) - An Agent Skill for the DL experiment lifecycle: RUN (a GPU you own or rent) → VERIFY the number is real → DELIVER reproducible, single-source figures and tables.
-
 ### Computer Vision
 
 * [qtzx06/yolodex](https://github.com/qtzx06/yolodex) - agent skills for autonomous data labeling, winner at openai codex hackathon 2026
@@ -328,13 +247,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [landing-ai/ade-document-processing-skills](https://github.com/landing-ai/ade-document-processing-skills) - Agent skills for LandingAI's Agentic Document Extraction (ADE) — production-ready document AI for agentic coding assistants
 * [liangdabiao/deepseek-v4-flash-vision-video-rag](https://github.com/liangdabiao/deepseek-v4-flash-vision-video-rag) - DeepSeek V4-Flash Vision Video RAG 让 AI 真正"看懂" 一段视频，然后你对它提问：它告诉你答案、答案发生在 第几分几秒，并切出那一段的可播放片段和关键帧给你核对。 基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的视频理解与问答 （video RAG）agent skill。先按时间轴抽帧阅读、建立索引（一次性），再对问题做 本地粗筛 → 视觉精排 → 深读回答；回答带 [MM:SS] 时间戳引用，自动生成 自包含 HTML 预览页（内嵌可播放片段 + 关键帧 + 答案），双击浏览器即看。
 * [liangdabiao/deepseek-v4-flash-vision-rag](https://github.com/liangdabiao/deepseek-v4-flash-vision-rag) - DeepSeek V4-Flash Vision RAG 让 AI 真正"看懂" 一份 PDF，然后你对它提问：它告诉你答案、答案在第几页， 并把那一页的原图展示出来给你核对。 基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的 PDF 深度问答与检索 （vision RAG）agent skill。支持文字版 PDF，也支持扫描版；能看懂 图表、表格、代码块、公式，而不只是认字。
-
-### Natural Language Processing
-
-* [deusyu/translate-book](https://github.com/deusyu/translate-book) - Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.
-* [863401402/she-love-me](https://github.com/863401402/she-love-me) - 她不一样 恋情分析室 — 微信聊天记录恋爱分析 Agent Skill （曾用名：她爱我吗？）
-* [JimmyLv/bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - OpenClaw / Claude Code / Codex Agent skill for summarizing videos/audio via BibiGPT CLI (bibi)
-* [kar2phi/video-lens](https://github.com/kar2phi/video-lens) - video-lens is a coding agent skill that fetches a YouTube transcript and generates a structured HTML report: executive summary, key points, analysis, takeaway, timestamped topic outline, and an embedded in-page player. No API keys, no external services beyond the coding agent itself.
 
 ### Data Science and Analytics
 
@@ -412,9 +324,9 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) - A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.
 * [FrancyJGLisboa/agent-skill-creator](https://github.com/FrancyJGLisboa/agent-skill-creator) - Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.
 * [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.
-* [alchaincyf/huashu-skills](https://github.com/alchaincyf/huashu-skills) - 花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制
 * [Pluviobyte/rnskill](https://github.com/Pluviobyte/rnskill) - 雪踏乌云的 AI Agent Skills 集合
 * [rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills) - A curated collection of Agent Skills for Google Antigravity
+* [alchaincyf/huashu-skills](https://github.com/alchaincyf/huashu-skills) - 花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制
 * [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) - Universal Claude Code workflow plugin with agents, skills, hooks, and commands
 * [noobnooc/agent](https://github.com/noobnooc/agent) - My profile & the agent skills I created
 * [microsoft/waza](https://github.com/microsoft/waza) - CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness
@@ -442,14 +354,14 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [antfu/skills-npm](https://github.com/antfu/skills-npm) - Install agent skills from npm
 * [Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI](https://github.com/Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI)
 * [ZeroPointRepo/awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) - Hermes Agent skills and plugins: 350+ tools, memory providers, and guides for Nous Research's agent.
+* [michaelshimeles/skills](https://github.com/michaelshimeles/skills) - Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.
 * [zjp1997720/zhijian-skills](https://github.com/zjp1997720/zhijian-skills) - Canonical source and governance toolkit for Zhijian AI public Agent Skills
 * [mxyhi/ok-skills](https://github.com/mxyhi/ok-skills) - Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.
 * [cosmicstack-labs/mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills) - A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.
 * [AgentSkillOS/SkillAnything](https://github.com/AgentSkillOS/SkillAnything) - Making ANY Software Skill-Native -- Auto-generate production-ready AI Agent Skills for Claude Code, OpenClaw, Codex, and more.
-* [michaelshimeles/skills](https://github.com/michaelshimeles/skills) - Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.
 * [computerlovetech/agr](https://github.com/computerlovetech/agr) - Educational package-manager project for AI agent skills. Not actively maintained.
-* [ai-driven-dev/framework](https://github.com/ai-driven-dev/framework) - Marketplace Framework AI-Driven Dev : Context Engineering, Plugins, Agents, Skills, Hooks, Templates, SDLC
 * [coleam00/skills](https://github.com/coleam00/skills) - The agent skills I actually use to build software with coding agents. The PIV loop, planning, worktrees, and the meta-skills for building your own AI Layer.
+* [ai-driven-dev/framework](https://github.com/ai-driven-dev/framework) - Marketplace Framework AI-Driven Dev : Context Engineering, Plugins, Agents, Skills, Hooks, Templates, SDLC
 * [jabrena/plinth](https://github.com/jabrena/plinth) - Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.
 * [JuneYaooo/lineage-skill](https://github.com/JuneYaooo/lineage-skill) - Distill videos, PDFs, transcripts, and notes into source-backed teacher Agent Skills.
 * [disler/the-library](https://github.com/disler/the-library) - A Meta-Skill for Private-First Distribution of Agentics (Skills, Agents, and Prompts) across your Agents, Devices, and Teams.
@@ -507,8 +419,8 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [nextlevelbuilder/skillx](https://github.com/nextlevelbuilder/skillx) - SkillX.sh — The Only Skill That Your AI Agent Needs. AI agent skills marketplace with semantic search, leaderboard, ratings, and CLI.
 * [kairyou/agent-tools](https://github.com/kairyou/agent-tools) - Reusable Agent Skills, plus integrations (statusline, provider usage, vision) that install into Codex, Claude Code, and opencode.
 * [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills) - 103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools. Complete SKILL.md workflows—not a link directory.
-* [wednesday-solutions/ai-agent-skills](https://github.com/wednesday-solutions/ai-agent-skills) - Pre-configured agent skills for Vibe Coded projects. These skills provide AI coding assistants (Claude Code, Cursor, etc.) with specific guidelines for code quality and design standards.
 * [KimYx0207/Kim_Service](https://github.com/KimYx0207/Kim_Service) - 面向 Claude Code、Codex 等 AI 编码助手的 Hook 与 Agent Skill 开源合集。
+* [wednesday-solutions/ai-agent-skills](https://github.com/wednesday-solutions/ai-agent-skills) - Pre-configured agent skills for Vibe Coded projects. These skills provide AI coding assistants (Claude Code, Cursor, etc.) with specific guidelines for code quality and design standards.
 * [AgriciDaniel/skill-forge](https://github.com/AgriciDaniel/skill-forge) - Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production-grade AI agent skills
 * [hqhq1025/skill-optimizer](https://github.com/hqhq1025/skill-optimizer) - Agent Skills lifecycle toolkit: mine repeated coding-agent workflows, audit and personalize skills, and generalize personal skills for public release.
 * [microsoft/SkillLens](https://github.com/microsoft/SkillLens) - SkillLens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle.
@@ -570,15 +482,15 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [thedesignproject/agent-skills](https://github.com/thedesignproject/agent-skills) - A community-driven collection of skills, prompts, and workflows to help builders get the most out of Claude Code and other AI agents.
 * [vasilyu1983/AI-Agents-public](https://github.com/vasilyu1983/AI-Agents-public) - Production-grade agent skills and Custom GPT prompts for ChatGPT, Claude Code, and Codex. 140 skills, 28 agents, Agent Skills spec compliant.
 * [zapier/wade-skills](https://github.com/zapier/wade-skills) - The most frequently used agent skills of Wade Foster, CEO of Zapier
+* [ashutoshsinghpr7/wikiskill](https://github.com/ashutoshsinghpr7/wikiskill) - WikiSkill (arXiv:2608.27454) for Hermes Agent — self-evolving agent skills via a persistent knowledge wiki. Faithful Algorithm 1 implementation with real agent runs, isolated skill gating, and a documented live run log.
 * [liuxingqitd/skills-hub](https://github.com/liuxingqitd/skills-hub) - A local dashboard to manage AI coding agent skills — sync, install, and organize skills across OpenClaw, Cursor, Claude Code, and more.
 * [TestAny-io/testany-agent-skills](https://github.com/TestAny-io/testany-agent-skills) - Testany 公司的 Agent Skills 集合，提供产品研发流程中的各类专业技能
 * [existential-birds/beagle](https://github.com/existential-birds/beagle) - Agent Skills marketplace: framework-aware skills for code review, documentation, test-plan generation, AI-writing detection, architectural analysis, and git workflows — for Python, Go, Rust, Elixir, React, Remix, and iOS/Swift. Works with Claude Code, Codex, and any agent that supports Agent Skills.
 * [Innei/SKILL](https://github.com/Innei/SKILL) - This repository stores personal AI Agent skills in a scalable directory layout.
 * [KerberosClaw/kc_ai_skills](https://github.com/KerberosClaw/kc_ai_skills) - AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM workflow
-* [ashutoshsinghpr7/wikiskill](https://github.com/ashutoshsinghpr7/wikiskill) - WikiSkill (arXiv:2608.27454) for Hermes Agent — self-evolving agent skills via a persistent knowledge wiki. Faithful Algorithm 1 implementation with real agent runs, isolated skill gating, and a documented live run log.
+* [it235/multica-best-practices](https://github.com/it235/multica-best-practices) - Copy. Paste. Run. — Production-tested Agent · Skill · Squad templates for Multica, bilingual (Chinese/English)
 * [klubinskak/skilldex](https://github.com/klubinskak/skilldex) - Skilldex is a local-first desktop dashboard for developers to discover, organize, and favourite their agent skills across global, project, and repo sources
 * [simota/agent-skills](https://github.com/simota/agent-skills) - 90 specialist AI agents + 3 project-local extensions for Claude Code / Codex CLI / Antigravity CLI (agy). Anthropic Agent Skills spec-aligned, hub-spoke orchestration via Nexus with 49 Recipes and 11 Skill Packs. Covers development, security, design, testing, FinOps, compliance, observability, and AI/ML.
-* [it235/multica-best-practices](https://github.com/it235/multica-best-practices) - Copy. Paste. Run. — Production-tested Agent · Skill · Squad templates for Multica, bilingual (Chinese/English)
 * [ogulcancelik/agent-skills](https://github.com/ogulcancelik/agent-skills) - Small, opinionated, agent-agnostic skills for coding agents
 * [brianlovin/notion-skills](https://github.com/brianlovin/notion-skills) - Use Notion as your source of truth for agent skills
 * [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) - Agent Skill for generating AGENTS.md files following the agents.md convention | Claude Code compatible
@@ -615,13 +527,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [palmier-io/palmier-skills](https://github.com/palmier-io/palmier-skills) - Agent Skills for Palmier Pro
 * [yzfly/Mind-Cloning-Engineering](https://github.com/yzfly/Mind-Cloning-Engineering) - MCE: Clone Human Souls with LLM Native Agent Skills | 基于 LLM Agent Skills 的心智克隆工程 | Agent Skills | Mind Skills | Mind Clone
 * [hAcKlyc/MyAgents_skills](https://github.com/hAcKlyc/MyAgents_skills) - Curated open-source skills for AI agents (Claude Code compatible)
-
-### MCP Servers and Connectors
-
-* [VikashLoomba/copilot-mcp](https://github.com/VikashLoomba/copilot-mcp) - A VSCode extension that lets you find and install Agent Skills and MCP Apps to use with GitHub Copilot, Claude Code, and Codex CLI.
-* [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) - MCP server for searching and retrieving Scientific Agent Skills using vector search
-* [paulp-o/ask-user-questions-mcp](https://github.com/paulp-o/ask-user-questions-mcp) - Better 'AskUserQuestion' - A lightweight MCP server/OpenCode plugin/Agent Skills + CLI interface which allows parallel AI agents ask questions to you. Be the human in the human-in-the-loop!
-* [intellectronica/gemini-cli-skillz](https://github.com/intellectronica/gemini-cli-skillz) - Gemini CLI extension for Anthropic-style Agent Skills via skillz MCP server
 
 ### Memory and Context
 
@@ -673,13 +578,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 
 ## Networking and Distributed
 
-### Distributed Systems
-
-* [awp-core/awp-skill](https://github.com/awp-core/awp-skill) - Agent skill for AWP RootNet protocol (testnet) — query, stake, govern, and monitor on-chain
-* [OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) - Agent skills for secure smart contract development with OpenZeppelin Contracts libraries
-* [smartcontractkit/chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) - [PUBLIC] Repository for Chainlink Skills that implement https://agentskills.io/specification
-* [trustwallet/tw-agent-skills](https://github.com/trustwallet/tw-agent-skills)
-
 ### Cloud and Infrastructure
 
 * [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) - Vercel's official collection of agent skills
@@ -703,21 +601,7 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [pulumi/agent-skills](https://github.com/pulumi/agent-skills) - Official Pulumi Agent Skills for writing, migrating, and operating infrastructure with AI coding agents
 * [chaterm/terminal-skills](https://github.com/chaterm/terminal-skills) - Public Agent Skills for Terminal and Kubernetes
 
-### Monitoring and Observability
-
-* [datadog-labs/agent-skills](https://github.com/datadog-labs/agent-skills) - Public repository for Datadog Agent Skills
-* [ollygarden/opentelemetry-agent-skills](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral OpenTelemetry skills for AI coding agents, grounded in upstream sources
-* [monte-carlo-data/mc-agent-toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit) - Official Monte Carlo toolkit for AI coding agents. Skills and plugins that bring data and agent observability — monitoring, triaging, troubleshooting, health checks — into Claude Code, Cursor, and more.
-* [dash0hq/agent-skills](https://github.com/dash0hq/agent-skills) - OpenTelemetry skills and reference documentation for AI coding assistants - instrumentation patterns, telemetry quality guides, and Dash0 integration
-
 ## User Interface
-
-### GUI Toolkits
-
-* [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) - An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.
-* [fayazara/macos-app-skills](https://github.com/fayazara/macos-app-skills) - AI coding agent skills for building, shipping, and maintaining native macOS apps
-* [TheQtCompanyRnD/agent-skills](https://github.com/TheQtCompanyRnD/agent-skills) - Official Qt AI engineering skills for Claude Code, Codex, Copilot, Gemini,and other AI coding tools
-* [CodeDrobe/skills](https://github.com/CodeDrobe/skills) - Agent Skills for theming AI desktop apps: reference image → reversible Codex/WorkBuddy skin → verify, repair, publish. | 给 AI 桌面应用换肤的 Agent Skills：参考图 → 可逆皮肤 → 验证、修复、发布。
 
 ### Mobile
 
@@ -824,11 +708,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [mcpads/create-retro-game-kr-patch](https://github.com/mcpads/create-retro-game-kr-patch) - 레트로 게임 한글 패치 제작 전 파이프라인 에이전트 스킬 · Agent skill for end-to-end Korean (Hangul) fan-translation patches for retro games
 * [Yuki001/game-dev-skills](https://github.com/Yuki001/game-dev-skills) - My personal agent skill repository, primarily focused on game development.
 
-### Audio
-
-* [sonilo-ai/skills](https://github.com/sonilo-ai/skills) - Agent skills for Sonilo's licensed music, sound-effects, dubbing, and audio-ducking API
-* [Ronvaknins/ableton-extensions-skill](https://github.com/Ronvaknins/ableton-extensions-skill) - An Agent Skill that teaches an AI coding agent how to scaffold, write, build, and package Ableton Live extensions with the Ableton Extensions SDK (@ableton-extensions/sdk, TypeScript).
-
 ### Image and Video
 
 * [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) - World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
@@ -894,8 +773,8 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [Wan-Video/Wan-skills](https://github.com/Wan-Video/Wan-skills) - AI Agent Skills for Wan — Enable your AI Agent to easily leverage Wan's AIGC capabilities.
 * [keepongo/video-summarizer](https://github.com/keepongo/video-summarizer) - An AI agent skill that extracts subtitles/transcripts from video platforms and generates structured summary notes with keyframe screenshots. Works with **Cursor** and **Claude Code**.
 * [runwayml/skills](https://github.com/runwayml/skills) - for Runway coding agent skills
-* [PixVerseAI/skills](https://github.com/PixVerseAI/skills) - Agent skill library for PixVerse CLI — helps AI agents (Claude Code, Cursor, Codex, etc.) generate videos and images through structured, composable workflows.
 * [kangarooking/director-skills](https://github.com/kangarooking/director-skills) - 导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation.
+* [PixVerseAI/skills](https://github.com/PixVerseAI/skills) - Agent skill library for PixVerse CLI — helps AI agents (Claude Code, Cursor, Codex, etc.) generate videos and images through structured, composable workflows.
 
 ## Security
 
@@ -924,24 +803,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [ax128/AegisGate](https://github.com/ax128/AegisGate) - Open-source security gateway for LLM APIs — prompt injection detection, PII redaction, dangerous response sanitization, and audit logging. OpenAI/Claude compatible, MCP & Agent SKILL support. Drop-in proxy for AI coding agents (Cursor, Claude Code, Codex).
 * [pors/skill-audit](https://github.com/pors/skill-audit) - Security auditing CLI for AI agent skills - detects prompt injection, secrets, and dangerous code patterns.
 * [YARAHQ/yara-rule-skill](https://github.com/YARAHQ/yara-rule-skill) - LLM Agent Skill for YARA rule authoring and review
-
-### Reverse Engineering
-
-* [miunasu/IDA-Skill](https://github.com/miunasu/IDA-Skill) - 使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro
-* [HLND2T/CS2_VibeSignatures](https://github.com/HLND2T/CS2_VibeSignatures) - Generate CS2 signatures via Agent SKILLS with ida-pro-mcp
-
-## Concurrency and Performance
-
-### Concurrency and Parallelism
-
-* [AvdLee/Swift-Concurrency-Agent-Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) - Add expert Swift Concurrency guidance to your AI coding tool (Agent Skills open format): safe concurrency, performance optimization, and Swift 6 migration.
-* [twostraws/Swift-Concurrency-Agent-Skill](https://github.com/twostraws/Swift-Concurrency-Agent-Skill) - Swift Concurrency agent skill for Claude Code, Codex, and other AI tools.
-
-### Performance and Optimization
-
-* [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) - Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
-* [ascend-ai-coding/awesome-ascend-skills](https://github.com/ascend-ai-coding/awesome-ascend-skills) - A comprehensive knowledge base for Huawei Ascend NPU development, structured as distributed Agent Skills. https://ascend-ai-coding.github.io/awesome-ascend-skills/
-* [yzlnew/infra-skills](https://github.com/yzlnew/infra-skills) - A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.
 
 ## Testing and Quality
 
@@ -990,12 +851,12 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills) - AI agent skills for professional document generation (DOCX, PDF, XLSX) extracted from Kimi. Designer-quality outputs with native charts, validation pipelines, and full OpenXML control
 * [luoling8192/technical-writing](https://github.com/luoling8192/technical-writing) - 中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构
 * [EveryInc/hands-on-deck](https://github.com/EveryInc/hands-on-deck) - Agent-native PowerPoint manipulation — one CLI lets AI agents inspect, edit, create, and verify .pptx files through atomic JSON patches. Packaged as an Agent Skill.
-* [lovstudio/any2pdf](https://github.com/lovstudio/any2pdf) - Markdown to professionally typeset PDF — an agent skill for AI coding assistants
 * [apcamargo/typst-skills](https://github.com/apcamargo/typst-skills) - Agent skills that guide AI agents to write Typst code
+* [lovstudio/any2pdf](https://github.com/lovstudio/any2pdf) - Markdown to professionally typeset PDF — an agent skill for AI coding assistants
 * [danjdewhurst/story-skills](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 * [gapmiss/obsidian-plugin-skill](https://github.com/gapmiss/obsidian-plugin-skill) - Agent SKILL for Obsidian.md plugin development
-* [STRYXTN/awesome-ai-research-writing](https://github.com/STRYXTN/awesome-ai-research-writing) - 来自顶尖研究机构的 AI 论文写作 Prompt 模板库与 Agent Skills 集合 ✨
 * [content-designer/ux-writing-skill](https://github.com/content-designer/ux-writing-skill) - Agent Skill for systematic UX writing — scale content quality through AI-powered design system enforcement. Works with Claude and Codex.
+* [STRYXTN/awesome-ai-research-writing](https://github.com/STRYXTN/awesome-ai-research-writing) - 来自顶尖研究机构的 AI 论文写作 Prompt 模板库与 Agent Skills 集合 ✨
 * [heptameta/heptabase-cli-skills](https://github.com/heptameta/heptabase-cli-skills) - Agent skills for Heptabase CLI.
 * [helpfeel/cosense-cli](https://github.com/helpfeel/cosense-cli) - Cosenseのページを読み・調べ・編集する為のCLIとAgent Skillのリリースリポジトリ
 * [addyosmani/clarity](https://github.com/addyosmani/clarity) - Clarity - an Agent skill for clearer writing
@@ -1008,10 +869,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [pickle-an/md-to-docx-skill](https://github.com/pickle-an/md-to-docx-skill) - Markdown 自动转正式 Word格式的Agent Skill
 * [trussary/vietnamese-language-skill](https://github.com/trussary/vietnamese-language-skill) - Agent Skills giúp AI viết tiếng Việt đúng chuẩn mà một người làm nghề tại Việt Nam sẽ thực sự dùng được.
 * [Hasasasa/html-to-editable-pptx](https://github.com/Hasasasa/html-to-editable-pptx) - Convert HTML slide decks to truly editable PPT / .pptx - text stays native PowerPoint textboxes, not screenshots. Agent Skill (Claude Code / Cursor / Codex / opencode) + plain Python CLI.
-
-### Files and Operating System
-
-* [baidu-netdisk/bdpan-storage](https://github.com/baidu-netdisk/bdpan-storage) - Agent Skill for Baidu Netdisk (百度网盘) — upload, download, transfer, share, search files via natural language. Works with Claude Code, Cursor, Codex, Gemini CLI, OpenClaw.
 
 ### Automation and Scripting
 
@@ -1082,9 +939,9 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [jup-ag/agent-skills](https://github.com/jup-ag/agent-skills) - Skills for AI coding agents to integrate with the Jupiter ecosystem.
 * [gaaiyun/joinquant-skill](https://github.com/gaaiyun/joinquant-skill) - AI agent skill for generating quantitative strategy code on JoinQuant platform - Cursor / Claude Code compatible
 * [Shopify/agent-skills](https://github.com/Shopify/agent-skills) - Shopify skills for agent collaboration
+* [SerendipityOneInc/ZooData-Skills](https://github.com/SerendipityOneInc/ZooData-Skills) - ZooData Skills - AI Agent skills for e-commerce data intelligence across Amazon, TikTok & beyond, plus open-web extraction
 * [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - Agent skills for implementing Malaysia payment gateway integrations.
 * [asterdex/aster-skills-hub](https://github.com/asterdex/aster-skills-hub) - A set of Agent skills for the Aster Futures API: depositing funds from a wallet, and for both v1 (HMAC) and v3 (EIP-712) — auth, public market data, account/balance/positions, order placement and management, WebSocket streams, and error/rate-limit handling.
-* [SerendipityOneInc/ZooData-Skills](https://github.com/SerendipityOneInc/ZooData-Skills) - ZooData Skills - AI Agent skills for e-commerce data intelligence across Amazon, TikTok & beyond, plus open-web extraction
 * [elliottech/lighter-agent-kit](https://github.com/elliottech/lighter-agent-kit) - Agent Skill to let AI Agents trade on Lighter
 * [kangise/ecommerce-ai-skills](https://github.com/kangise/ecommerce-ai-skills) - Cross-border e-commerce AI knowledge base, designed to be read by people and installed by agents. 69 trilingual guides, 878 structured prompts, a 94-entity / 318-constraint domain ontology, and 9 agent skills served over MCP. Factual claims are dated and CI-verified; prompts declare their data requirements and failure boundaries. CC0.
 * [algoderiv/agent-skills](https://github.com/algoderiv/agent-skills) - Claude Code skills for China quant trading
@@ -1153,8 +1010,8 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [N1arko/redaktura-skills](https://github.com/N1arko/redaktura-skills) - Agent Skills for Russian editing, writing, editorial policy, promo copy, posts, and UX copy.
 * [seranking/seo-skills](https://github.com/seranking/seo-skills) - Claude SEO Skills — production Claude Agent Skills for the SE Ranking MCP server. Content briefs, AI Search share of voice, audits, backlink gaps, keyword clusters, schema, sitemap, GEO, and more.
 * [unclecatvn/agent-skills](https://github.com/unclecatvn/agent-skills) - Odoo Skills Documentation
-* [gmapsscraper/google-maps-agent-skills](https://github.com/gmapsscraper/google-maps-agent-skills) - Claude Code / OpenClaw skills for Google Maps lead generation. Scrape businesses, extract emails, analyze competitors, write cold outreach — powered by gmapsscraper.io API.
 * [aleksandr-alhoff/seo-landing](https://github.com/aleksandr-alhoff/seo-landing) - SEO Landing: Give your AI coding agent the capabilities of a senior Technical SEO engineer. An agent skill for building high-performance, technically optimized SEO landing pages. Turn an AI coding agent into a technical SEO specialist. Build and improve landing pages with: • 🚀 100/100 Google PageSpeed target • ⚡ Core Web Vitals optimization
+* [gmapsscraper/google-maps-agent-skills](https://github.com/gmapsscraper/google-maps-agent-skills) - Claude Code / OpenClaw skills for Google Maps lead generation. Scrape businesses, extract emails, analyze competitors, write cold outreach — powered by gmapsscraper.io API.
 * [wrsmith108/linear-claude-skill](https://github.com/wrsmith108/linear-claude-skill) - Agent skill for managing Linear issues, projects, and teams. MCP tools, SDK automation, GraphQL API patterns.
 * [stvlynn/dingtalk-wukong-skills](https://github.com/stvlynn/dingtalk-wukong-skills) - 钉钉生态与专业文档处理的 Agent 技能精选集。A curated collection of Agent Skills for DingTalk and professional document processing.
 * [Rimagination/good-story](https://github.com/Rimagination/good-story) - Agent skill for evidence-faithful scientific storytelling
@@ -1162,8 +1019,8 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [clay-run/agent-plugins](https://github.com/clay-run/agent-plugins) - Build with Clay in your AI coding agent - skills, MCP tools, and the clay CLI for Claude Code, Codex, and Cursor. Search companies and people, run enrichment routines, and query tables from natural language.
 * [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) - 面向 CS / AI / ML 领域的证据驱动、分节推进的论文写作 Agent Skill。
 * [daniel-p-green/nbj-write-clearly](https://github.com/daniel-p-green/nbj-write-clearly) - A clear-writing agent skill grounded in the Google Developer Documentation Style Guide.
-* [KurosawaGeeker/femboy-skill](https://github.com/KurosawaGeeker/femboy-skill) - 面向 MTF、crossdresser 与性别多元成年人的中文 Agent Skill，基于生如夏花知识库并加入医学安全护栏。
 * [Yila-AI/awesome-research-skills](https://github.com/Yila-AI/awesome-research-skills) - Open-source Agent Skills for planning, drafting, revising, and polishing SCI/SSCI papers—while preserving evidence, citations, and claim strength.
+* [KurosawaGeeker/femboy-skill](https://github.com/KurosawaGeeker/femboy-skill) - 面向 MTF、crossdresser 与性别多元成年人的中文 Agent Skill，基于生如夏花知识库并加入医学安全护栏。
 * [onepixelaway/frontend-textbooks](https://github.com/onepixelaway/frontend-textbooks) - A coding-agent skill for generating designed HTML textbooks and print-ready PDFs
 * [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - 88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.
 * [abullaisi/upwork-skills](https://github.com/abullaisi/upwork-skills) - AI agent skills for Upwork freelancers, from a real Top Rated Plus playbook. Free, open, community-written. Not affiliated with Upwork.
@@ -1204,12 +1061,6 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 
 ## Science and Math
 
-### Mathematics
-
-* [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) - 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
-* [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) - 专为数学建模竞赛设计的数模 Agent Skills：MCM/ICM 美赛、CUMCM 国赛、华数杯、M3、HiMCM 等，面向 Claude Code 与 Codex 的获奖级建模工作流。Math modeling contest skills for Claude Code & Codex.
-* [GordenSun/Math2GGB](https://github.com/GordenSun/Math2GGB) - A Cursor Agent Skill that turns math problems (esp. geometry) into faithful + interactive GeoGebra .ggb files by driving the real GeoGebra engine.
-
 ### Scientific Computing
 
 * [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
@@ -1246,19 +1097,77 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [RConsortium/pharma-skills](https://github.com/RConsortium/pharma-skills) - A collection of agent skills for BioPharma use cases GSDBench Intake https://rconsortium.github.io/pharma-skills/gsdbench-intake/
 * [SciMate-AI/HPC-Skills](https://github.com/SciMate-AI/HPC-Skills) - Portable agent skills for High Performance Computing workflows across OpenFOAM, SU2, LS-DYNA, FEniCS, CalculiX, ElmerFEM, PETSc, hypre, Trilinos, LAMMPS, GROMACS, Quantum ESPRESSO, VASP, Gaussian, ParaView, and Gmsh, plus MPI, GPU, Spack, reproducible toolchains, and cluster orchestration.
 * [telekinesis-ai/telekinesis-examples](https://github.com/telekinesis-ai/telekinesis-examples) - Telekinesis Agentic Skill Library: build AI-powered Computer Vision, Robotics and Physical AI applications.
+* [Tyche-MKR/scientific-agent-skills](https://github.com/Tyche-MKR/scientific-agent-skills) - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 * [jaakla/openmapstack](https://github.com/jaakla/openmapstack) - AI-agent skill for reproducible, validated GIS analysis — from authoritative data discovery to interactive maps, on an open-first geospatial stack (OSM, Overture, STAC, DuckDB, PostGIS, QGIS, MapLibre).
 * [HeshamFS/materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) - Agent Skills for computational materials science -- numerical stability, solvers, meshing, convergence, and simulation workflows.
 * [Power-Agent/PowerSkills](https://github.com/Power-Agent/PowerSkills) - PowerSkills are some Agent Skills for power system analysis. This repository provides AI agents with specialized knowledge and instructions for performing power system simulations, analysis, and optimization using various power system software tools.
-* [Tyche-MKR/scientific-agent-skills](https://github.com/Tyche-MKR/scientific-agent-skills) - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 * [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) - 239 evaluated academic Claude/agent skills across 17 research domains (bioinformatics, data science, clinical, social-science methods, Turkish academia & more). Executable eval per skill, deterministic citation verifier, research→write→review→publish pipeline, and a skill-finder front door. Claude Code, Cursor, Codex, Gemini CLI & Copilot.
 * [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) - MCP server for bioinformatics agent skills — query a knowledge graph of 78 bioinformatics workflows directly from Claude Code
 
 ## Other
 
+* [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+* [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) - Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.
+* [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) - 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
+* [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) - Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
+* [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) - An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.
+* [AvdLee/Swift-Concurrency-Agent-Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) - Add expert Swift Concurrency guidance to your AI coding tool (Agent Skills open format): safe concurrency, performance optimization, and Swift 6 migration.
+* [deusyu/translate-book](https://github.com/deusyu/translate-book) - Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.
+* [AvdLee/Xcode-Build-Optimization-Agent-Skill](https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill) - An Agent Skill helping you to optimize Xcode incremental and clean builds by running benchmarks and optimizing build settings.
+* [863401402/she-love-me](https://github.com/863401402/she-love-me) - 她不一样 恋情分析室 — 微信聊天记录恋爱分析 Agent Skill （曾用名：她爱我吗？）
+* [fayazara/macos-app-skills](https://github.com/fayazara/macos-app-skills) - AI coding agent skills for building, shipping, and maintaining native macOS apps
+* [elastic/agent-skills](https://github.com/elastic/agent-skills) - Official Elastic Skills
+* [twostraws/Swift-Concurrency-Agent-Skill](https://github.com/twostraws/Swift-Concurrency-Agent-Skill) - Swift Concurrency agent skill for Claude Code, Codex, and other AI tools.
+* [VikashLoomba/copilot-mcp](https://github.com/VikashLoomba/copilot-mcp) - A VSCode extension that lets you find and install Agent Skills and MCP Apps to use with GitHub Copilot, Claude Code, and Codex CLI.
+* [google-ai-edge/litert-samples](https://github.com/google-ai-edge/litert-samples) - LiteRT and LiteRT-LM sample apps, model recipes, agent skills and utilities.
+* [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) - MCP server for searching and retrieving Scientific Agent Skills using vector search
+* [twostraws/SwiftData-Agent-Skill](https://github.com/twostraws/SwiftData-Agent-Skill) - SwiftData agent skill for Claude Code, Codex, and other AI tools.
+* [TheQtCompanyRnD/agent-skills](https://github.com/TheQtCompanyRnD/agent-skills) - Official Qt AI engineering skills for Claude Code, Codex, Copilot, Gemini,and other AI coding tools
+* [AvdLee/Core-Data-Agent-Skill](https://github.com/AvdLee/Core-Data-Agent-Skill) - An Agent Skill focused on Apple’s Core Data framework, helping with data modeling, fetch requests, performance, and common persistence patterns.
+* [jlevy/simple-modern-uv](https://github.com/jlevy/simple-modern-uv) - A powerful, minimal agent skill and template for modern Python projects with uv
+* [CodeDrobe/skills](https://github.com/CodeDrobe/skills) - Agent Skills for theming AI desktop apps: reference image → reversible Codex/WorkBuddy skin → verify, repair, publish. | 给 AI 桌面应用换肤的 Agent Skills：参考图 → 可逆皮肤 → 验证、修复、发布。
+* [awp-core/awp-skill](https://github.com/awp-core/awp-skill) - Agent skill for AWP RootNet protocol (testnet) — query, stake, govern, and monitor on-chain
+* [qdrant/skills](https://github.com/qdrant/skills) - Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java
+* [miunasu/IDA-Skill](https://github.com/miunasu/IDA-Skill) - 使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro
+* [baidu-netdisk/bdpan-storage](https://github.com/baidu-netdisk/bdpan-storage) - Agent Skill for Baidu Netdisk (百度网盘) — upload, download, transfer, share, search files via natural language. Works with Claude Code, Cursor, Codex, Gemini CLI, OpenClaw.
+* [OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) - Agent skills for secure smart contract development with OpenZeppelin Contracts libraries
+* [mohitmishra786/low-level-dev-skills](https://github.com/mohitmishra786/low-level-dev-skills) - A curated suite of AI agent skills for systems and low-level programming with C/C++, Rust, and Zig toolchains, covering compilers, debuggers, profilers, build systems, sanitizers, and binary analysis
+* [ystemsrx/sql_to_ER](https://github.com/ystemsrx/sql_to_ER) - 【在线免费使用】 简单快速将SQL或DBML转换为美观的ER图（支持 Agent Skill）/ The best SQL to ER Diagram converter (Support Agent Skill).
 * [shizhilya/yuan](https://github.com/shizhilya/yuan) - Yuan (元) — a unified destiny-reading skill for Codex, Claude Code, and Agent Skills runtimes. One input surface, six methods (BaZi / Cheng Gu / Numerology / Western / Vedic / Zi Wei), production-grade output.
+* [modular/skills](https://github.com/modular/skills) - Agent Skills for Mojo and MAX development
+* [resend/resend-skills](https://github.com/resend/resend-skills) - Agent Skills for working with Resend to send and receive emails.
+* [ascend-ai-coding/awesome-ascend-skills](https://github.com/ascend-ai-coding/awesome-ascend-skills) - A comprehensive knowledge base for Huawei Ascend NPU development, structured as distributed Agent Skills. https://ascend-ai-coding.github.io/awesome-ascend-skills/
 * [daman-ovo-0404/tarot-skill](https://github.com/daman-ovo-0404/tarot-skill) - AI 塔罗占卜 Agent Skill — 78 牌完整牌义、6 种牌阵、牌间关系理论体系、真随机抽牌脚本
+* [datadog-labs/agent-skills](https://github.com/datadog-labs/agent-skills) - Public repository for Datadog Agent Skills
+* [tech-shrimp/agent-skills-examples](https://github.com/tech-shrimp/agent-skills-examples)
+* [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) - 专为数学建模竞赛设计的数模 Agent Skills：MCM/ICM 美赛、CUMCM 国赛、华数杯、M3、HiMCM 等，面向 Claude Code 与 Codex 的获奖级建模工作流。Math modeling contest skills for Claude Code & Codex.
+* [paulp-o/ask-user-questions-mcp](https://github.com/paulp-o/ask-user-questions-mcp) - Better 'AskUserQuestion' - A lightweight MCP server/OpenCode plugin/Agent Skills + CLI interface which allows parallel AI agents ask questions to you. Be the human in the human-in-the-loop!
+* [yzlnew/infra-skills](https://github.com/yzlnew/infra-skills) - A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.
+* [liyupi/github-global](https://github.com/liyupi/github-global) - 2026 年编程导航 AI 编程实战新项目，基于 Next.js 15 + GitHub App + OpenRouter 的 GitHub 仓库 AI 文档翻译 SaaS 平台，支持可视化翻译配置、一键多语言翻译、自动创建 PR、Webhook 增量翻译、自定义大模型等。覆盖 GitHub App OAuth 认证、GitHub REST API 对接、OpenRouter 多模型接入、Prisma + MySQL 全栈开发、Vercel 部署、Ngrok 内网穿透、Cursor Vibe Coding + MCP + Agent Skills 等核心技术。用一套教程掌握 AI 编程全流程，从需求调研到部署上线，不到一周学完，给你的简历增加竞争力
+* [smartcontractkit/chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) - [PUBLIC] Repository for Chainlink Skills that implement https://agentskills.io/specification
+* [JimmyLv/bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - OpenClaw / Claude Code / Codex Agent skill for summarizing videos/audio via BibiGPT CLI (bibi)
+* [sonilo-ai/skills](https://github.com/sonilo-ai/skills) - Agent skills for Sonilo's licensed music, sound-effects, dubbing, and audio-ducking API
+* [apollographql/skills](https://github.com/apollographql/skills) - Apollo GraphQL Agent Skills
+* [kar2phi/video-lens](https://github.com/kar2phi/video-lens) - video-lens is a coding agent skill that fetches a YouTube transcript and generates a structured HTML report: executive summary, key points, analysis, takeaway, timestamped topic outline, and an embedded in-page player. No API keys, no external services beyond the coding agent itself.
+* [UditAkhourii/cdaf](https://github.com/UditAkhourii/cdaf) - CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.
+* [weaviate/agent-skills](https://github.com/weaviate/agent-skills) - Agent Skills to empower developers building AI applications with Weaviate.
+* [intellectronica/gemini-cli-skillz](https://github.com/intellectronica/gemini-cli-skillz) - Gemini CLI extension for Anthropic-style Agent Skills via skillz MCP server
+* [ollygarden/opentelemetry-agent-skills](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral OpenTelemetry skills for AI coding agents, grounded in upstream sources
+* [trustwallet/tw-agent-skills](https://github.com/trustwallet/tw-agent-skills)
+* [monte-carlo-data/mc-agent-toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit) - Official Monte Carlo toolkit for AI coding agents. Skills and plugins that bring data and agent observability — monitoring, triaging, troubleshooting, health checks — into Claude Code, Cursor, and more.
+* [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) - A collection of Agent Skills for Rstack.
+* [dash0hq/agent-skills](https://github.com/dash0hq/agent-skills) - OpenTelemetry skills and reference documentation for AI coding assistants - instrumentation patterns, telemetry quality guides, and Dash0 integration
+* [hookdeck/webhook-skills](https://github.com/hookdeck/webhook-skills) - Webhook integration skills for AI coding agents (Claude Code, Cursor, Copilot). Step-by-step guidance for setting up webhook receivers, signature verification, and event handling for Stripe, Shopify, GitHub, and more. Built on the Agent Skills specification.
+* [JustSteveKing/api-skill](https://github.com/JustSteveKing/api-skill) - An opinionated agent skill that encodes production-ready patterns for building REST APIs in Laravel 13+.
+* [zeke/faster-chrome-devtools-skill](https://github.com/zeke/faster-chrome-devtools-skill) - Agent skill that makes Chrome DevTools faster
+* [Ronvaknins/ableton-extensions-skill](https://github.com/Ronvaknins/ableton-extensions-skill) - An Agent Skill that teaches an AI coding agent how to scaffold, write, build, and package Ableton Live extensions with the Ableton Extensions SDK (@ableton-extensions/sdk, TypeScript).
 * [DigitalArchivst/Open-Genealogy](https://github.com/DigitalArchivst/Open-Genealogy) - GPS-aligned AI prompts and Agent Skills for genealogical research (CC-BY-NC-SA-4.0)
+* [brunoborges/jdb-agentic-debugger](https://github.com/brunoborges/jdb-agentic-debugger) - Agent Skill for debugging Java applications in real time using JDB (Java Debugger CLI)
+* [HLND2T/CS2_VibeSignatures](https://github.com/HLND2T/CS2_VibeSignatures) - Generate CS2 signatures via Agent SKILLS with ida-pro-mcp
 * [xiaofeng-928/chinese-longnovel-skill](https://github.com/xiaofeng-928/chinese-longnovel-skill) - 面向 Codex / Claude Code 的中文长篇网络小说写作 Skill：分层上下文组装、50章分阶段规划、状态回证、伏笔追踪与回收、一致性审查和自动修复。Chinese web novel writing agent skill.
+* [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) - You.com skills and plugins for web search, content extraction, research, finance, and integration discovery, helping AI agents build with up-to-date web context.
+* [Hanyuyuan6/remote-gpu-trainer](https://github.com/Hanyuyuan6/remote-gpu-trainer) - An Agent Skill for the DL experiment lifecycle: RUN (a GPU you own or rent) → VERIFY the number is real → DELIVER reproducible, single-source figures and tables.
+* [GordenSun/Math2GGB](https://github.com/GordenSun/Math2GGB) - A Cursor Agent Skill that turns math problems (esp. geometry) into faithful + interactive GeoGebra .ggb files by driving the real GeoGebra engine.
 * [Waybox-AI/roadtrip-skill](https://github.com/Waybox-AI/roadtrip-skill) - An AI agent skill that turns "start + days" into a road trip you can actually drive.
 * [likweitan/abap-skills](https://github.com/likweitan/abap-skills) - Agent Skills for ABAP Developers
 * [maxedapps/agent-skills](https://github.com/maxedapps/agent-skills)
