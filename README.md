@@ -774,6 +774,7 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [runwayml/skills](https://github.com/runwayml/skills) - for Runway coding agent skills
 * [kangarooking/director-skills](https://github.com/kangarooking/director-skills) - 导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation.
 * [PixVerseAI/skills](https://github.com/PixVerseAI/skills) - Agent skill library for PixVerse CLI — helps AI agents (Claude Code, Cursor, Codex, etc.) generate videos and images through structured, composable workflows.
+* [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - MIT-licensed, local-first TypeScript CLI and MCP toolkit for composing and editing videos from editable plan.json timelines.
 
 ## Security
 
