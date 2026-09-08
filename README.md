@@ -526,6 +526,7 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [kanyun-inc/reskill](https://github.com/kanyun-inc/reskill) - reskill - brings the npm experience to AI agent skills.
 * [yzfly/Mind-Cloning-Engineering](https://github.com/yzfly/Mind-Cloning-Engineering) - MCE: Clone Human Souls with LLM Native Agent Skills | 基于 LLM Agent Skills 的心智克隆工程 | Agent Skills | Mind Skills | Mind Clone
 * [hAcKlyc/MyAgents_skills](https://github.com/hAcKlyc/MyAgents_skills) - Curated open-source skills for AI agents (Claude Code compatible)
+* [BulkPublish social-media-content-skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) - Reusable social media planning, adaptation, review, scheduling, and batch publishing skills for AI agents, with [API](https://app.bulkpublish.com/docs) and [MCP](https://mcp.bulkpublish.com/mcp) integrations.
 
 ### Memory and Context
 
