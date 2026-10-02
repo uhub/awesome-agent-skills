@@ -322,6 +322,7 @@ A curated list of awesome Agent Skills frameworks, libraries and software.
 * [davidondrej/skills](https://github.com/davidondrej/skills) - access to david ondrej's personal agent skills
 * [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) - YAO = Yielding AI Outcomes. A rigorous engineering, evaluation, governance, and portability system for reusable agent skills.
 * [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) - A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.
+* [alapha888/agent-skills-en](https://github.com/alapha888/agent-skills-en) - Five MIT-licensed English productivity skills for AI coding agents: meeting notes, code review checklist, deep research framework, technical writing proofreading, and conventional git commit messages.
 * [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.
 * [rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills) - A curated collection of Agent Skills for Google Antigravity
 * [Pluviobyte/rnskill](https://github.com/Pluviobyte/rnskill) - 雪踏乌云的 AI Agent Skills 集合
